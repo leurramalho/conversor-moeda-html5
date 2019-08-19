@@ -1,3 +1,3 @@
 # conversor-moeda-html5
 Conversor de Moeda
-Designed by Leonardo Ramalho de Mendonça - 19.08.19
+Designed by Leonardo Ramalho de Mendonça
