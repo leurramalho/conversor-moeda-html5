@@ -1,13 +1,19 @@
 <html>
 	<head>
 		<title>Conversor de Moedas</title>
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<center> <h1> Conversor de Moedas </h1></center>
-		<label for="moeda_origem">Moeda de origem:</label>
-		<input type="text" id="name" name="moeda_origem" required maxlength="3">
-		<p>
-		<label for="moeda_destino">Moeda de destino:</label>
-		<input type="text" id="name" name="moeda_destino" required maxlength="3">
+	    <form action="resultado.html" method="get" >
+			<label for="moeda_origem">Moeda de origem:</label>
+			<input type="text" id="name" name="moeda_origem" required maxlength="3">
+			<br/>
+			<label for="moeda_destino">Moeda de destino:</label>
+			<input type="text" id="name" name="moeda_destino" required maxlength="3">
+			<p>
+			<input type="submit" value="Converter">	
+			</p>
+		</form>
 	</body>
 </html>
